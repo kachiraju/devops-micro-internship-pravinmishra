@@ -85,6 +85,7 @@ Earlier, whenever someone shared their life experiences or personal struggles wi
 Over time, I observed that no one can truly understand another person's situation until they have walked in their shoes. I also realized that most people are not looking for advice, guidance, or even consolation when they open up. More often, they simply want someone who will listen without judging or interrupting. Expressing their thoughts and emotions helps them release the emotional burden they have been carrying.
 
 Based on this realization, I made a personal rule: I will not offer advice unless the other person asks for it. Since adopting this approach, my conversations have become more meaningful, people seem more comfortable sharing their thoughts with me, and I have built stronger relationships. I also learned that advice has much greater value when it is invited rather than imposed, even if the advice itself is genuine and well-intentioned.
+
 ---
 
 ## Truth #3
