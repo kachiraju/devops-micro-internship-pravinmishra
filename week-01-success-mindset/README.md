@@ -211,6 +211,7 @@ If Yes:
 Shame and Regret 
 
 There was a time when I made a mistake but tried to justify it by giving an excuse instead of taking responsibility immediately. Even though others accepted my explanation, I knew I wasn't being completely honest. I felt uncomfortable because the situation didn't align with the values I wanted to live by.
+
 ---
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
@@ -378,14 +379,14 @@ Poor sleep quality and food choices are ruining my energy.
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_join-the-dmi-devops-micro-internship-share-7478307932091191296--N2V/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: (https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_join-the-dmi-devops-micro-internship-share-7478307932091191296--N2V/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY) 
+- Blog / Medium : https://medium.com/@bharadwajk32/bk-from-a-telugu-medium-student-in-rural-telangana-to-a-technology-leader-who-inspired-others-to-8e7d2332eaaf 
 
 ---
 
