@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Medium](.\screenshots\Assignment8_SS1.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+https://medium.com/@bharadwajk32/devops-micro-internship-week-2-completed-my-reflection-0c74de9d3c18
 
 ---
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Linkedin](.\screenshots\Assignment8_SS2.png)
 
 ---
 
@@ -108,7 +108,7 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-agenticai-aiengineering-share-7481358798490890241-_lZR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 
 ---
 
