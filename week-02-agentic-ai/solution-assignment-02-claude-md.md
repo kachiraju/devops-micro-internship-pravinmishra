@@ -20,9 +20,9 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-![claude generic response](.\screenshots\Assignment2_SS1.png)
-![claude generic response](.\screenshots\Assignment2_SS2.png)
-![claude generic response](.\screenshots\Assignment2_SS3.png)
+![claude generic response](./screenshots/Assignment2_SS1.png)
+![claude generic response](./screenshots/Assignment2_SS2.png)
+![claude generic response](./screenshots/Assignment2_SS3.png)
 
 
 
@@ -38,8 +38,8 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-![Auto Generated claude.md](.\screenshots\Assignment2_SS4.png)
-![Auto Generated claude.md](.\screenshots\Assignment2_SS5.png)
+![Auto Generated claude.md](./screenshots/Assignment2_SS4.png)
+![Auto Generated claude.md](./screenshots/Assignment2_SS5.png)
 
 ---
 
@@ -53,7 +53,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-![Customized claude.md](.\screenshots\Assignment2_SS6.png)
+![Customized claude.md](./screenshots/Assignment2_SS6.png)
 
 ---
 
@@ -67,14 +67,14 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-![claude.md's specified answer](.\screenshots\Assignment2_SS7.png)
+![claude.md's specified answer](./screenshots/Assignment2_SS7.png)
 
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-![claude.md's specified answer](.\screenshots\Assignment2_SS8.png)
+![claude.md's specified answer](./screenshots/Assignment2_SS8.png)
 
 ---
 
@@ -88,7 +88,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-![claude.md in github](.\screenshots\Assignment2_SS9.png)
+![claude.md in github](./screenshots/Assignment2_SS9.png)
 
 ---
 

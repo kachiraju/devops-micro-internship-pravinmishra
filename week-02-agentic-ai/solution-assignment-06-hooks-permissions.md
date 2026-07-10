@@ -20,7 +20,7 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-![.claude structure](.\screenshots\Assignment6_SS1.png)
+![.claude structure](./screenshots/Assignment6_SS1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-![user-prompt-guard.sh](.\screenshots\Assignment6_SS2.png)
+![user-prompt-guard.sh](./screenshots/Assignment6_SS2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
-![pre-tool-guard.sh](.\screenshots\Assignment6_SS3.png)
+![pre-tool-guard.sh](./screenshots/Assignment6_SS3.png)
 ---
 
 # Task 4 — Create the PostToolUse Hook Script
@@ -61,7 +61,7 @@ Create a hook that runs after Claude executes a Bash command and logs selected T
 
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
-![post-tool-logger.sh](.\screenshots\Assignment6_SS4.png)
+![post-tool-logger.sh](./screenshots/Assignment6_SS4.png)
 
 ---
 
@@ -75,7 +75,7 @@ Configure Claude Code permissions and connect the hook scripts created in the pr
 
 #### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
-![settings.json](.\screenshots\Assignment6_SS5.png)
+![settings.json](./screenshots/Assignment6_SS5.png)
 
 ---
 
@@ -89,7 +89,7 @@ Prove the prompt-level hook works by typing a destructive prompt and verifying i
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
-![UserPromptSubmit](.\screenshots\Assignment6_SS6.png)
+![UserPromptSubmit](./screenshots/Assignment6_SS6.png)
 
 ---
 
@@ -103,7 +103,7 @@ Prove the tool-level hook works by asking Claude to execute a dangerous Bash com
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
 
-![PreToolUse](.\screenshots\Assignment6_SS7.png)
+![PreToolUse](./screenshots/Assignment6_SS7.png)
 
 ---
 
@@ -117,11 +117,11 @@ Prove the logging hook runs after a successful command execution and records Ter
 
 #### Screenshot 8 — Claude running terraform validate successfully
 
-![terraform validate](.\screenshots\Assignment6_SS8.png)
+![terraform validate](./screenshots/Assignment6_SS8.png)
 
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
 
-![.claude/deploy.log](.\screenshots\Assignment6_SS9.png)
+![.claude/deploy.log](./screenshots/Assignment6_SS9.png)
 
 ---
 
