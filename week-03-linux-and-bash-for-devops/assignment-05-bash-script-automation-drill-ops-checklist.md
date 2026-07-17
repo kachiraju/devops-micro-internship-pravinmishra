@@ -272,7 +272,7 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-![test_folder entries](./screenshots/AS6T6SS1.png)
+![test_folder entries](./screenshots/AS5T6SS1.png)
 
 ---
 
