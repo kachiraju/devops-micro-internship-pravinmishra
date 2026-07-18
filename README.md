@@ -130,7 +130,6 @@ Week 03 → Linux & Bash for DevOps
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-<<<<<<< HEAD
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_cohort-assignment-bharawaja-kachirajudocx-share-7464977473521442816-pZBG/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/how-i-joined-the-devops-micro-internship-409cace6fcd4?sharedUserId=bharadwajk32 |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_join-the-dmi-devops-micro-internship-share-7478307932091191296--N2V/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/bk-from-a-telugu-medium-student-in-rural-telangana-to-a-technology-leader-who-inspired-others-to-8e7d2332eaaf |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-agenticai-aiengineering-share-7481358798490890241-_lZR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/devops-micro-internship-week-2-completed-my-reflection-0c74de9d3c18?sharedUserId=bharadwajk32 |
