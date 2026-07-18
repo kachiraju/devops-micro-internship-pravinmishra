@@ -54,7 +54,11 @@ You can publish your blog on:
 
 Blog Link:
 
+<<<<<<< HEAD
 https://medium.com/@bharadwajk32/devops-micro-internship-week-2-completed-my-reflection-0c74de9d3c18
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -108,7 +112,11 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-agenticai-aiengineering-share-7481358798490890241-_lZR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

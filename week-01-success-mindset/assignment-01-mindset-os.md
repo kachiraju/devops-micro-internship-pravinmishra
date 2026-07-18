@@ -178,7 +178,12 @@ Today, many professionals seek BK’s guidance not only for technical challenges
 
 Paste your link here:
 
+<<<<<<< HEAD
 https://medium.com/@bharadwajk32/bk-from-a-telugu-medium-student-in-rural-telangana-to-a-technology-leader-who-inspired-others-to-8e7d2332eaaf?sharedUserId=bharadwajk32
+=======
+`Add your URL here`
+
+>>>>>>> upstream/main
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -380,7 +385,11 @@ Poor sleep quality and food choices are ruining my energy.
 
 Paste your LinkedIn post link here:
 
+<<<<<<< HEAD
 https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_join-the-dmi-devops-micro-internship-share-7478307932091191296--N2V/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
