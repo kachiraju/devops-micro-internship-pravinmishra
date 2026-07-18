@@ -146,8 +146,6 @@ Week 03 → Linux & Bash for DevOps
 | 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
->>>>>>> upstream/main
-
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
 
