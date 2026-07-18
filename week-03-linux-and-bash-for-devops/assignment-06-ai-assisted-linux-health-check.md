@@ -521,9 +521,8 @@ I allowed the AI skill to run the Bash script, read the report, and explain the 
 Paste your LinkedIn post URL here:
 
 <<<<<<< HEAD
-https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-agenticai-devops-share-7483856224610893824-2oF2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 =======
-`Add your URL here`
+https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-agenticai-devops-share-7483856224610893824-2oF2/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 >>>>>>> upstream/main
 
 ---

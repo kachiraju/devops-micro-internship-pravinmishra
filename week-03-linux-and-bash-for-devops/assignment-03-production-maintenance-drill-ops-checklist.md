@@ -419,9 +419,8 @@ Removing unused resources also improves security by reducing the attack surface 
 Paste your LinkedIn post URL here:
 
 <<<<<<< HEAD
-https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-agenticai-devops-ugcPost-7483254521075392512-8o4H/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 =======
-`Add your URL here`
+https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-agenticai-devops-ugcPost-7483254521075392512-8o4H/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 >>>>>>> upstream/main
 
 ---
