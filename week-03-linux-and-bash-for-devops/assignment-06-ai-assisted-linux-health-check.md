@@ -530,7 +530,7 @@ https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-a
 
 #### Screenshot — Published LinkedIn post
 
-![Linkedin](./screenshots/AS6_LINKEDIN.png)
+![Linkedin](./screenshots/AS6_LIKEDIN.png)
 
 ---
 
