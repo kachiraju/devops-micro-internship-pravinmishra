@@ -79,8 +79,8 @@ This is not a course. It is an internship-style program — real deployments, re
 Week 03 → Linux & Bash for DevOps
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+Week 04 → Git & GitHub 
+ [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -135,7 +135,7 @@ Week 03 → Linux & Bash for DevOps
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-agenticai-aiengineering-share-7481358798490890241-_lZR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/devops-micro-internship-week-2-completed-my-reflection-0c74de9d3c18?sharedUserId=bharadwajk32 |
 | 03 | Linux for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-agenticai-devops-share-7483888477604904960-yOxL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/from-learning-linux-commands-to-building-an-ai-operations-co-pilot-e48676eff771?sharedUserId=bharadwajk32 |
 | 04 | Bash Scripting | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-agenticai-devops-share-7483888477604904960-yOxL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/from-learning-linux-commands-to-building-an-ai-operations-co-pilot-e48676eff771?sharedUserId=bharadwajk32 |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmi-devops-micro-internship-with-agentic-share-7485915955634712576-XcCd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/the-hidden-observer-wasnt-alone-my-week-exploring-git-github-ai-2ca2de033782 |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
