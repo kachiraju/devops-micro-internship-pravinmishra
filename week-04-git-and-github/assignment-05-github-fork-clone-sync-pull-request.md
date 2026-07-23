@@ -152,7 +152,7 @@ https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-a
 
 Paste your fork URL here:
 
-`Add your URL here`
+https://github.com/kachiraju/devops-micro-internship-pravinmishra
 
 ---
 
