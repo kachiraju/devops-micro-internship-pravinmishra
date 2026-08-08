@@ -104,13 +104,13 @@ Create a one-week Sprint, move two or three Stories into it (approximately 3–5
 
 #### Screenshot 8 — Sprint 1 before starting, showing the selected Stories and Story Points
 
-[LABLES](./screenshots/AS2T6SS8.png)
+![LABLES](./screenshots/AS2T6SS8.png)
 
 ---
 
 #### Screenshot 9 — Active Sprint board showing the started Sprint and Sprint Goal
 
-[LABLES](./screenshots/AS2T6SS9.png)
+![LABLES](./screenshots/AS2T6SS9.png)
 
 ---
 
@@ -124,13 +124,13 @@ Filter Jira work by the `frontend` and `devops` labels and review Stories with S
 
 #### Screenshot 10 — Filter for label = frontend showing the filtered results
 
-[FRONTEND](./screenshots/AS2T7SS10.png)
+![FRONTEND](./screenshots/AS2T7SS10.png)
 
 ---
 
 #### Screenshot 11 — Filter for label = devops showing the filtered results
 
-[DEVOPS](./screenshots/AS2T7SS11.png)
+![DEVOPS](./screenshots/AS2T7SS11.png)
 
 ---
 
@@ -144,7 +144,7 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 #### Screenshot 12 — Burndown Chart page opened for Sprint 1
 
-[DEVOPS](./screenshots/AS2T8SS12.png)
+![DEVOPS](./screenshots/AS2T8SS12.png)
 
 ---
 

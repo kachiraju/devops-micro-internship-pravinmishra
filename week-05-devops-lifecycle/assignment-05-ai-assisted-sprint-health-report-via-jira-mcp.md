@@ -20,13 +20,13 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 #### Screenshot 1 — Jira API token creation confirmation page showing the token name, with the token value not visible
 
-Add your screenshot here.
+![API](./screenshots/AS5T1SS1.png)
 
 ### Notes You Must Write (Very Important):
 
 Why does the MCP server need your site URL and account email in addition to the token?
 
-Add your answer here
+Jira's REST API authenticates using Basic Auth, which requires a username (your email) and a secret (the API token) together — the token alone doesn't identify which Atlassian account it belongs to or which Jira site to connect to, since Atlassian hosts many separate instances (your-site.atlassian.net is yours specifically, distinct from anyone else's). The token proves "this really is you," the email says "on behalf of this specific account," and the URL says "talk to this specific Jira instance, not some other one."
 
 ---
 
@@ -40,13 +40,15 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the Jira server configuration
 
-Add your screenshot here.
+![MCP](./screenshots/AS5T2SS2.png)
 
 ### Notes You Must Write (Very Important):
 
 Compare this jira block to the github block from Week 2 Assignment 5. The GitHub server ran via npx (a Node.js package); this one runs via uvx (a Python package) — what stays exactly the same shape despite that difference, and why doesn't Claude Code care which language a given MCP server is written in?
 
-Add your answer here
+Both GitHub and Jira use the same MCP configuration shape: a server name containing command, args, and env. The only difference is that GitHub uses npx to run a Node.js package, while Jira uses uvx to run a Python package.
+
+Claude Code doesn’t care which language the MCP server is written in because it communicates with the server through the standard MCP protocol. As long as the server follows MCP, Claude Code interacts with it in the same way regardless of whether it is built with Python, Node.js, or another language.
 
 ---
 
@@ -60,13 +62,14 @@ Add your Jira site URL, account email, and API token to `.claude/settings.local.
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section, with the actual token value blurred or covered
 
-Add your screenshot here.
+![TOKEN](./screenshots/AS5T3SS3.png)
 
 ### Notes You Must Write (Very Important):
 
 Why must JIRA_API_TOKEN live in settings.local.json and never in .mcp.json?
 
-Add your answer here
+The .gitignore file tells Git which files or folders should not be tracked or committed to the repository.
+Since settings.local.json contains sensitive information such as API tokens, usernames, and URLs, it should never be pushed to GitHub. By adding it to .gitignore, you protect your credentials while still allowing other project files to be committed safely.
 
 ---
 
@@ -80,7 +83,7 @@ Restart Claude Code and confirm the Jira MCP server shows as connected.
 
 #### Screenshot 4 — `/mcp` output showing `jira: connected`
 
-Add your screenshot here.
+![TOKEN](./screenshots/AS5T4SS4.png)
 
 ---
 
@@ -94,13 +97,13 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 #### Screenshot 5 — Claude's response showing the live sprint issue list retrieved via Jira MCP
 
-Add your screenshot here.
+![live sprint](./screenshots/AS5T5SS5.png)
 
 ### Notes You Must Write (Very Important):
 
 How did you confirm this was real board data and not something Claude guessed?
 
-Add your answer here
+I have compared the live date in jira site and claude response, It was same.
 
 ---
 
@@ -114,21 +117,21 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-Add your screenshot here.
+![SKILL](./screenshots/AS5T6SS6.png)
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint
 
-Add your screenshot here.
+![SKILL](./screenshots/AS5T6SS7.png)
 
 ### Notes You Must Write (Very Important):
 
 1. Which Jira MCP tools does this skill's allowed-tools list include, and which mutating tools (create issue, update issue, transition issue, add comment) does it deliberately exclude?
 
-Add your answer here
+The skill allows only read-only Jira tools: jira_search, jira_get_issue, jira_get_sprint, and jira_get_board. It deliberately excludes all mutating tools such as create issue, update issue, transition issue, and add comment.
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-Add your answer here
+A Scrum Master should report and facilitate, not modify the board on behalf of the team. If Claude could change issues, statuses, estimates, or comments, it could alter the team's actual Scrum data and decisions. The read-only restriction ensures Claude provides evidence and recommendations, while the human Scrum Master remains responsible for taking action.
 
 ---
 
@@ -142,13 +145,13 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 #### Screenshot 8 — Second `/sprint-health` run showing the report now reflects your manual board change
 
-Add your screenshot here.
+![SKILL](./screenshots/AS5T7SS8.png)
 
 ### Notes You Must Write (Very Important):
 
 Map this assignment to Gather → Analyze → Human Act → Verify from Week 3 Assignment 6. Which step did you perform manually in the browser, and why must that step stay human?
 
-Add your answer here
+Gather: /sprint-health retrieved the active sprint and issue data through the Jira MCP read-only tools. Analyze: Claude evaluated sprint velocity, at-risk stories and missing estimates or acceptance criteria. Human Act: I manually changed the Jira issue in the browser. This step must remain human because ticket changes affect the team's shared source of truth and require accountable human decision-making. Verify: I ran /sprint-health again and confirmed that the updated Jira state appeared in the new report without Claude creating or modifying any issue itself.
 
 ---
 
