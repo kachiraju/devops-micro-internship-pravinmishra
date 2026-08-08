@@ -203,13 +203,13 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-micro-internship-scrum-in-practice-share-7491802172301557760--q9P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![RETRO](./screenshots/AS4_Linkedin.png)
 
 ---
 
