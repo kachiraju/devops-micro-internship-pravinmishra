@@ -58,19 +58,19 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T2SS6.png)
 
 ---
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
+![EC2](./screenshots/AS5T2SS7.png)
 
 ---
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
+![RDS](./screenshots/AS5T2SS8.png)
 
 ---
 
@@ -84,13 +84,14 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
+![RDS](./screenshots/AS5T3SS9.png)
+![RDS](./screenshots/AS5T3SS9_1.png)
 
 ---
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
+![RDS](./screenshots/AS5T3SS10.png)
 
 ---
 
@@ -104,13 +105,13 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
+![RDS](./screenshots/AS5T4SS11.png)
 
 ---
 
 #### Screenshot 12 — A running instance created from the template showing that the application responds on port 80 through a local test or browser using its public IP
 
-Add your screenshot here.
+![BROWSER](./screenshots/AS5T4SS12.png)
 
 ---
 
@@ -124,13 +125,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T5SS13.png)
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
+![TG](./screenshots/AS5T5SS14.png)
 
 ---
 
@@ -144,13 +145,13 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T6SS15.png)
 
 ---
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T6SS16.png)
 
 ---
 
@@ -164,13 +165,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T7SS17.png)
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T7SS18.png)
 
 ---
 
@@ -186,25 +187,26 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T8SS19_1.png)
+![ALB](./screenshots/AS5T8SS19_2.png)
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T8SS20.png)
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T8SS21.png)
 
 ---
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T8SS22.png)
 
 ---
 
@@ -218,7 +220,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-Add your screenshot here.
+![ALB](./screenshots/AS5T9SS23.png)
 
 ---
 
@@ -226,19 +228,19 @@ Add your screenshot here.
 
 Summarize the VPC and subnets across the two Availability Zones.
 
-Write your answer here.
+A VPC (vpc-02956991cabd04939) was configured in the AWS eu-north-1 Region with subnets distributed across two Availability Zones: eu-north-1a and eu-north-1b. The web application infrastructure was deployed across both AZs to provide high availability and avoid a single point of failure.
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+An internet-facing Application Load Balancer (ha-alb) was configured with an HTTP listener on port 80 and forwards traffic to the target group ha-web-tg. The Auto Scaling Group deploys WordPress EC2 instances across the two Availability Zones and registers them with the target group. The ALB continuously performs health checks and routes traffic only to healthy instances, while the Auto Scaling Group helps maintain the required number of instances.
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+A private Amazon RDS MySQL database was configured for the WordPress application using a Multi-AZ setup. The database is not directly exposed to the internet and is accessed only by the application instances on MySQL port 3306. Multi-AZ deployment provides database high availability by maintaining a standby instance in another Availability Zone for failover.
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+Both high-availability tests demonstrated that the architecture can tolerate infrastructure failures. When an application instance became unavailable, the Auto Scaling Group and ALB health checks ensured that unhealthy instances were removed from service and traffic could continue to be served by healthy instances. The Multi-AZ design also provides resilience across Availability Zones, reducing the impact of an AZ-level failure and helping maintain application availability.
 
 ---
 
@@ -254,13 +256,13 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-micro-internship-week-06-aws-cloud-share-7493982308044214272-ID2u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![ALB](./screenshots/AWS_Linkedin.png)
 
 ---
 

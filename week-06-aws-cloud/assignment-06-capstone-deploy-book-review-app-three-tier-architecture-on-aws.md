@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![DIAGRAM](./screenshots/AS6T1SS1.png)
 
 ---
 
@@ -34,13 +34,23 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+eu-north-1
 
 ---
 
 **Services:**
 
-Write your answer here.
+Networking: Amazon VPC, subnets (six across two Availability Zones), Internet Gateway, NAT Gateway, route tables, Elastic IP (attached to the NAT Gateway only), Security Groups.
+
+Compute: Amazon EC2 (two t3.micro instances running Ubuntu 24.04 LTS), EC2 key pairs.
+
+Load balancing: Elastic Load Balancing, specifically two Application Load Balancers (one internet-facing, one internal) with their target groups and listeners.
+
+Database: Amazon RDS for MySQL with Multi-AZ enabled, a read replica, and a DB subnet group spanning both private database subnets.
+
+Supporting services: AWS Systems Manager Parameter Store (to resolve the current Ubuntu AMI), AWS Identity and Access Management, AWS CLI v2.
+
+On the instances: Nginx as reverse proxy, Node.js 20, Next.js 15 for the web tier, Express with Sequelize for the app tier, and systemd to keep both services running.
 
 ---
 
@@ -56,7 +66,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+http://book-review-web-alb-850427566.eu-north-1.elb.amazonaws.com/
 
 ---
 
@@ -70,37 +80,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![WEB](./screenshots/AS6T4SS1.png)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![APP](./screenshots/AS6T4SS2.png)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![PALB](./screenshots/AS6T4SS3.png)
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![IALB](./screenshots/AS6T4SS4.png)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![RDS](./screenshots/AS6T4SS5.png)
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![RDS](./screenshots/AS6T4SS6.png)
 
 ---
 
@@ -114,19 +124,19 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+The three-tier Book Review application was successfully deployed and made accessible through the internet-facing Web ALB. The Next.js frontend and Node.js/Express backend were both running on separate EC2 instances and managed by PM2. The backend successfully connected to the MySQL RDS database, and the complete application flow, including user registration, was working successfully.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+We troubleshot ALB connectivity, Nginx configuration errors, incorrect HTTP/HTTPS access, PM2-managed processes and port conflicts, duplicate /api/api paths, incorrect localhost:3001 API routing, RDS database access issues, and CORS configuration errors. We used target health checks, logs, browser Developer Tools, and application configuration to identify and fix each issue.
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS EC2, Application Load Balancers, Target Groups, Security Groups, RDS MySQL, Nginx, Next.js, Node.js, Express, PM2, MySQL, Linux commands, browser Developer Tools, and application/server logs.
 
 ---
 
@@ -142,13 +152,13 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_beyond-high-availability-building-a-three-tier-share-7494066090776354817-iDAg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![RDS](./screenshots/AS6_LINKEDIN.png)
 
 ---
 
