@@ -158,7 +158,7 @@ https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_beyond-high-availab
 
 #### Screenshot of LinkedIn post
 
-![RDS](./screenshots/AS6_LINKEDIN.png)
+![LINKEDIN](./screenshots/AS6_LINKEDIN.png)
 
 ---
 

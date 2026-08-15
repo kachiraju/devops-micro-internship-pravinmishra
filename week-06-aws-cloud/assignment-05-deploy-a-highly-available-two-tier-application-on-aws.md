@@ -220,7 +220,7 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-![ALB](./screenshots/AS5T9SS23.png)
+![ALB](./screenshots/AS4T9SS23.png)
 
 ---
 
