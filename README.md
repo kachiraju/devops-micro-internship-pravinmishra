@@ -88,8 +88,8 @@ Week 04 → Git & GitHub
  Week 05 → DevOps Lifecycle & Agile
 [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
+Week 06 → AWS Cloud
+[![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
 
 <!-- Week 07 → Azure Cloud -->
 <!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
@@ -140,7 +140,7 @@ Week 04 → Git & GitHub
 | 04 | Bash Scripting | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmibypravinmishra-agenticai-devops-share-7483888477604904960-yOxL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/from-learning-linux-commands-to-building-an-ai-operations-co-pilot-e48676eff771?sharedUserId=bharadwajk32 |
 | 05 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_dmi-devops-micro-internship-with-agentic-share-7485915955634712576-XcCd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/the-hidden-observer-wasnt-alone-my-week-exploring-git-github-ai-2ca2de033782 |
 | 06 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-devopsinternship-devopslifecycle-share-7491803224648237056-evlg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/from-scrum-theory-to-an-ai-assisted-sprint-my-hands-on-devops-journey-6d4b45cef993?postPublishedType=initial |
-| 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_devops-micro-internship-week-06-completed-share-7494312255518466049-BHYP/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY | https://medium.com/@bharadwajk32/from-high-availability-to-ai-security-audits-my-aws-week-6-journey-%EF%B8%8F-1302eb188036?postPublishedType=initial |
 | 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
