@@ -20,7 +20,7 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+![AZ](./screenshots/AS1T1SS1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+![CLAUDE](./screenshots/AS7T2SS2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+![CLAUDE](./screenshots/AS7T3SS3.png)
 
 ---
 
@@ -62,13 +62,13 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+![SCRIPT](./screenshots/AS7T4SS4.png)
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+![SCRIPT](./screenshots/AS7T4SS5.png)
 
 ---
 
@@ -82,7 +82,7 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+![SCRIPT](./screenshots/AS7T5SS6.png)
 
 ---
 
@@ -96,13 +96,13 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+![SKILL](./screenshots/AS7T6SS7.png)
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+![SKILL](./screenshots/AS7T6SS8.png)
 
 ---
 
@@ -116,19 +116,19 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+![SKILL](./screenshots/AS7T7SS9.png)
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![SKILL](./screenshots/AS7T7SS10.png)
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+![SKILL](./screenshots/AS7T7SS11.png)
 
 ---
 
@@ -136,7 +136,9 @@ Add your screenshot here.
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+The finding categories are essentially the same across AWS and Azure, even though the services and CLI commands differ. In AWS, the audit looked for security-group rules exposing SSH/RDP, public access to S3, encryption-related issues, and public access to RDS. In Azure, the equivalent checks are NSG rules exposing SSH/RDP, Storage Account blob public access, VM disk-encryption status, and Azure Database for MySQL public network access. The cloud-specific resources change, but the underlying security questions remain: who can reach the resource, is data publicly exposed, and is data protected at rest.
+
+What stayed exactly the same was the engineering workflow: Gather → Analyze → Human Act → Verify. Bash collects deterministic evidence, Claude/Agentic AI analyzes that evidence and recommends a remediation, the human reviews and executes the change, and the audit is run again to prove the finding is resolved. The aws and az commands are different, but the safety model, read-only audit, human approval, evidence-before-fix, and before/after verification remain the same.
 
 ---
 
