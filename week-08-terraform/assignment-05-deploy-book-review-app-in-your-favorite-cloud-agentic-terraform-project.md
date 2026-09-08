@@ -107,7 +107,7 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
+![tf](./screenshots/AS5T2SS6.png)
 
 ---
 
@@ -115,7 +115,7 @@ Add your screenshot here.
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+![tf](./screenshots/AS5T2SS7.png)
 
 ---
 
@@ -123,7 +123,7 @@ Add your screenshot here.
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
+![tf](./screenshots/AS5T2SS8.png)
 
 ---
 
@@ -139,7 +139,7 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+![ec2](./screenshots/AS5T3SS9.png)
 
 ---
 
@@ -147,7 +147,7 @@ Add your screenshot here.
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+![lb](./screenshots/AS5T3SS10.png)
 
 ---
 
@@ -155,7 +155,7 @@ Add your screenshot here.
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+![lb](./screenshots/AS5T3SS11.png)
 
 ---
 
@@ -163,7 +163,7 @@ Add your screenshot here.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
+![lb](./screenshots/AS5T3SS12.png)
 
 ---
 
@@ -179,7 +179,7 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
+![db](./screenshots/AS5T4SS13.png)
 
 ---
 
@@ -187,7 +187,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
+![db](./screenshots/AS5T4SS14.png)
 
 ---
 
@@ -195,7 +195,7 @@ Add your screenshot here.
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
+![db](./screenshots/AS5T4SS15.png)
 
 ---
 
@@ -203,7 +203,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
+![db](./screenshots/AS5T4SS16.png)
 
 ---
 
@@ -219,7 +219,7 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
+![tf](./screenshots/AS5T5SS17.png)
 
 ---
 
@@ -227,7 +227,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
+![tf](./screenshots/AS5T5SS18.png)
 
 ---
 
@@ -235,7 +235,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+![tf](./screenshots/AS5T5SS19.png)
 
 ---
 
@@ -251,7 +251,7 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-Add your screenshot here.
+![browser](./screenshots/AS5T6SS20.png)
 
 ---
 
@@ -259,7 +259,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful login or authentication.
 
-Add your screenshot here.
+![browser](./screenshots/AS5T6SS21.png)
 
 ---
 
@@ -267,7 +267,7 @@ Add your screenshot here.
 
 Add a screenshot showing the book listing or book details.
 
-Add your screenshot here.
+![browser](./screenshots/AS5T6SS22.png)
 
 ---
 
@@ -275,7 +275,7 @@ Add your screenshot here.
 
 Add a screenshot showing the review functionality working successfully.
 
-Add your screenshot here.
+![browser](./screenshots/AS5T6SS23.png)
 
 ---
 
@@ -283,7 +283,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the backend or API is working successfully.
 
-Add your screenshot here.
+![browser](./screenshots/AS5T6SS24.png)
 
 ---
 
@@ -291,11 +291,12 @@ Add your screenshot here.
 
 Add a screenshot showing successful database reads and writes.
 
-Add your screenshot here.
+![browser](./screenshots/AS5T6SS25.png)
+
 
 ## Public Application URL
 
-**Public Application URL / DNS:** Add the working public application URL or load-balancer DNS here
+**Public Application URL / DNS:** http://book-review-capstone-public-alb-1064691467.ap-south-1.elb.amazonaws.com/
 
 ---
 
@@ -313,7 +314,8 @@ You do not need to submit your complete Claude Code conversation history. Includ
 
 Add a screenshot showing one useful example of AI-assisted Terraform generation or improvement.
 
-Add your screenshot here.
+![ai](./screenshots/AS5T7SS26_1.png)
+![ai](./screenshots/AS5T7SS26_2.png)
 
 ---
 
@@ -321,7 +323,7 @@ Add your screenshot here.
 
 Add a screenshot showing one structured architecture or security review result.
 
-Add your screenshot here.
+![REVIEW](./screenshots/AS5T7SS27.png)
 
 ---
 
@@ -329,7 +331,7 @@ Add your screenshot here.
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-Add your screenshot here.
+![REVIEW](./screenshots/AS5T7SS28.png)
 
 ---
 
@@ -368,67 +370,68 @@ Reflect on the architecture, Terraform implementation, and Agentic AI workflow. 
 
 ### 1. Why did you separate the Web, Application, and Database tiers?
 
-Write your answer here.
+Separation provides clearer security boundaries, independent scaling, and easier troubleshooting. The web tier serves the frontend, the application tier processes API requests and business logic, and the database tier stores data. Each tier receives only the network access it needs.
 
 ### 2. Why is the Application Tier private?
 
-Write your answer here.
+The application tier is private so users cannot access the Express backend directly. Requests reach it only through the internal Application Load Balancer from the web tier, reducing attack surface.
 
 ### 3. Why is MySQL private?
 
-Write your answer here.
+MySQL contains application and user data, so it must not be exposed to the internet. Its security group allows port 3306 only from the application-tier security group.
 
 ### 4. Why are multiple Availability Zones used?
 
-Write your answer here.
+Resources are distributed across two Availability Zones to improve availability. If one Availability Zone has a failure, load balancers and Auto Scaling Groups can continue serving traffic from the other zone.
 
 ### 5. What is the difference between Multi-AZ/high availability and a read replica?
 
-Write your answer here.
+Multi-AZ provides high availability through a standby database and automatic failover; it is mainly for resilience. A read replica is a separate database copy used for read scaling and reporting. It has its own endpoint and is not the same as a failover standby.
 
 ## Terraform
 
 ### 6. How did you divide your Terraform into modules?
 
-Write your answer here.
+I separated Terraform into modules for network, security, load balancer, compute, database, secrets, and artifacts. The root module connects these modules and provides shared variables, provider configuration, and common tags.
 
 ### 7. How do the modules communicate through variables and outputs?
 
-Write your answer here.
+A module exports resource values through outputs, and the root module passes those values into another module as variables. For example, the network module outputs subnet IDs, the security module outputs security-group IDs, and those are passed to the load balancer, compute, and database modules.
+
 
 ### 8. What did you specifically check in `terraform plan`?
 
-Write your answer here.
+I checked that only expected resources would be created, changed, or destroyed; that no ports 3001 or 3306 were publicly exposed; that IAM access was least privilege; and that no unintended RDS password change was planned. For the phased deployment, I also verified that the artifact-bucket plan contained only four S3 resources.
 
 ## Agentic AI
 
 ### 9. What was the purpose of `CLAUDE.md`?
 
-Write your answer here.
+CLAUDE.md defined project-specific instructions, architecture requirements, safety expectations, validation steps, and the required security-review workflow for the AI agents.
 
 ### 10. What work did the Terraform Engineer subagent perform?
 
-Write your answer here.
+The Terraform Engineer planned and implemented the Terraform changes, created modules and user-data templates, wired variables and outputs, ran formatting and validation, and generated plans for review. It did not apply infrastructure without approval.
 
 ### 11. What did the Architecture and Security Reviewer identify?
 
-Write your answer here.
+The reviewer identified a stale plan, missing web-tier HTTPS egress, a secret-retrieval variable-scoping bug, missing AWS Region configuration, outdated comments, and missing deployment documentation. These findings were fixed before deployment.
 
 ### 12. Why did you use Terraform MCP instead of relying only on Claude's existing Terraform knowledge?
 
-Write your answer here.
+Terraform MCP provided current Terraform-specific context and validation support, rather than relying only on general model knowledge. This helped verify module structure, resource configuration, plans, and provider-related decisions against the actual project.
 
 ### 13. What was the purpose of your validation hooks?
 
-Write your answer here.
+The validation hooks ensured formatting and configuration checks ran consistently. They helped catch Terraform syntax, formatting, and configuration problems before infrastructure changes were applied.
 
 ### 14. Describe one real issue Claude helped you troubleshoot.
 
-Write your answer here.
+The app-tier target group was unhealthy because cloud-init failed during dnf install: installing curl conflicted with Amazon Linux’s existing curl package. This stopped the user-data script before the backend service was created. The issue was diagnosed through SSM logs and repaired manually so the backend returned HTTP 200.
 
 ### 15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly.
 
-Write your answer here.
+I did not use the original Git-clone deployment approach because my frontend fixes were local and uncommitted. Instead, I adopted an S3 artifact approach: I created an archive containing the local frontend and backend source, uploaded it to a private versioned S3 bucket, and configured the instances to retrieve it. This ensured the deployed app included the local API-route fix.
 
 ---
 
@@ -442,7 +445,7 @@ Write the post in your own words, include at least one project image or other pr
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:** https://www.linkedin.com/posts/bharadwaja-kachiraju-78a45598_aws-terraform-devops-share-7503205105421160448-PgkM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABS2KxoBOPNTBIxog_qhN1vz4HLYmnjgQPY
 
 ---
 
