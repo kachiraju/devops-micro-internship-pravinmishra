@@ -31,7 +31,8 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
+![claude](./screenshots/AS5T0SS1_1.png)
+![claude](./screenshots/AS5T0SS1_2.png)
 
 ---
 
@@ -39,7 +40,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+![SUBAGENT](./screenshots/AS5T0SS2.png)
 
 ---
 
@@ -47,7 +48,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
+![SUBAGENT](./screenshots/AS5T0SS3.png)
 
 ---
 
@@ -55,7 +56,7 @@ Add your screenshot here.
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+![MCP](./screenshots/AS5T0SS4.png)
 
 ---
 
@@ -63,7 +64,7 @@ Add your screenshot here.
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+![HOOKS](./screenshots/AS5T0SS5.png)
 
 ---
 
@@ -90,7 +91,7 @@ The diagram must show:
 
 ## Architecture Diagram
 
-Add the completed architecture diagram here.
+![ARCH](./screenshots/AS5T1SS.png)
 
 ---
 
