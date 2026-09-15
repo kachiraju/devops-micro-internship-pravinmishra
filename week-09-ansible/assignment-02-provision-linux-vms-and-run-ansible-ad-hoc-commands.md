@@ -24,13 +24,13 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-[structure](./screenshots/AS2T1SS1.png)!
+![structure](./screenshots/AS2T1SS1.png)
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-[gitstatus](./screenshots/AS2T1SS2.png)!
+![gitstatus](./screenshots/AS2T1SS2.png)
 
 ---
 
@@ -63,19 +63,19 @@ Do not configure both providers for this assignment.
 
 #### Screenshot 3 — Terraform configuration showing the three or four server roles and the `for_each` or `count` implementation
 
-[tf](./screenshots/AS2T2SS3.png)!
+![tf](./screenshots/AS2T2SS3.png)
 
 ---
 
 #### Screenshot 4 — Terraform configuration showing SSH restricted to the controller IP and HTTP allowed only for web hosts
 
-[tf](./screenshots/AS2T2SS4.png)!
+![tf](./screenshots/AS2T2SS4.png)
 
 ---
 
 #### Screenshot 5 — Terraform output configuration showing how public IP addresses are associated with the server roles
 
-[tf](./screenshots/AS2T2SS4.png)!
+![tf](./screenshots/AS2T2SS4.png)
 
 ---
 
@@ -101,19 +101,19 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 #### Screenshot 6 — Final `terraform apply` output showing `Apply complete`
 
-[tf](./screenshots/AS2T3SS6.png)!
+![tf](./screenshots/AS2T3SS6.png)
 
 ---
 
 #### Screenshot 7 — `terraform output public_ips` showing the role-to-IP mapping for all three or four VMs
 
-[tf](./screenshots/AS2T3SS7.png)!
+![tf](./screenshots/AS2T3SS7.png)
 
 ---
 
 #### Screenshot 8 — Azure Portal or AWS Management Console showing all three or four VMs in the `Running` state, with their role-based names visible
 
-[tf](./screenshots/AS2T3SS8.png)!
+![tf](./screenshots/AS2T3SS8.png)
 
 ---
 
@@ -143,7 +143,7 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 #### Screenshot 9 — Terminal showing successful SSH hostname output from all VMs
 
-[SSH](./screenshots/AS2T4SS9.png)!
+![SSH](./screenshots/AS2T4SS9.png)
 
 ---
 
@@ -169,13 +169,13 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 #### Screenshot 10 — `inventory.ini` showing the `web`, `app`, and `db` groups
 
-[inv](./screenshots/AS2T5SS10.png)!
+![inv](./screenshots/AS2T5SS10.png)
 
 ---
 
 #### Screenshot 11 — Output of `ansible-inventory -i inventory.ini --graph`
 
-[inv](./screenshots/AS2T5SS11.png)!
+![inv](./screenshots/AS2T5SS11.png)
 
 ---
 
@@ -203,37 +203,37 @@ This task proves that the inventory is working and that Ansible can control mult
 
 #### Screenshot 12 — Output of `ansible all -i inventory.ini -m ping`
 
-[ansible](./screenshots/AS2T6SS12.png)!
+![ansible](./screenshots/AS2T6SS12.png)
 
 ---
 
 #### Screenshot 13 — Output of `ansible all -i inventory.ini -m command -a "uptime"`
 
-[ansible](./screenshots/AS2T6SS13.png)!
+![ansible](./screenshots/AS2T6SS13.png)
 
 ---
 
 #### Screenshot 14 — Output of `ansible web -i inventory.ini -m apt -a "name=nginx state=present update_cache=yes" --become`
 
-[ansible](./screenshots/AS2T6SS14.png)!
+![ansible](./screenshots/AS2T6SS14.png)
 
 ---
 
 #### Screenshot 15 — Output of `ansible web -i inventory.ini -m service -a "name=nginx state=started enabled=yes" --become`
 
-[ansible](./screenshots/AS2T6SS15.png)!
+![ansible](./screenshots/AS2T6SS15.png)
 
 ---
 
 #### Screenshot 16 — Output of `ansible all -i inventory.ini -m apt -a "name=htop state=present update_cache=yes" --become`
 
-[ansible](./screenshots/AS2T6SS15.png)!
+![ansible](./screenshots/AS2T6SS15.png)
 
 ---
 
 #### Screenshot 17 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx"`
 
-[ansible](./screenshots/AS2T6SS16.png)!
+![ansible](./screenshots/AS2T6SS16.png)
 
 ---
 
@@ -267,7 +267,7 @@ https://lnkd.in/p/dCQnh2aq
 
 #### Screenshot — Published LinkedIn post
 
-[linkedin](./screenshots/AS2_LINKEDIN.png)!
+![linkedin](./screenshots/AS2_LINKEDIN.png)
 
 ---
 
