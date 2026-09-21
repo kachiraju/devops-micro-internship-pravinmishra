@@ -7,8 +7,11 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 ## Student Details
 
 **Full Name:** Bharadwaja Kachiraju 
+
 **Cloud Platform Used:** Azure  
+
 **Server 1 URL:** http://172.198.64.104 
+
 **Server 2 URL:** http://172.198.70.96
 
 ---
